@@ -1,0 +1,406 @@
+@media (min-width: 320px) and (max-width: 575.98px) {
+    nav {
+        text-align: center;
+    }
+    nav i {
+        color: #fff;
+        font-size: 25px;
+    }
+    nav ul {
+        margin: 10px 0 0 0;
+        background: #000;
+    }
+    .navbar {
+        --bs-navbar-toggler-border-color: rgba(var(--bs-emphasis-color-rgb), 0.0);
+        --bs-navbar-toggler-focus-width: 0.0rem;
+    }
+    nav ul li a {
+        margin: 0 0 0 0;
+    }
+    nav ul li a::after {
+        display: none;
+    }
+    .banner_part {
+        padding: 150px 0 90px 0;
+    }
+    .banner_part .banner_con h1 {
+        font-size: 37px;
+    }
+    .banner_part .banner_con .img img {
+        margin: 20px 0;
+    }
+    .banner_part .banner_con .btn {
+        margin: 10px 0 0 0;
+    }
+    .about_part {
+        padding: 0;
+    }
+    .about_part .title h2 {
+        font-size: 30px;
+    }
+    .about_part .title .img {
+        margin: 6px 0 20px 0;
+    }
+    .about_part .about_con .text p {
+        width: auto;
+    }
+    .about_part .img_con {
+        margin: 10px 0 0 0;
+    }
+    .about_part .img_con img {
+        width: 100%;
+    }
+    .ingred_part {
+        padding: 20px 10px;
+    }
+    .ingred_part .ingred_con {
+        padding: 20px 10px;
+    }
+    .ingred_part .ingred_con .title h2 {
+        font-size: 30px;
+    }
+    .ingred_part .ingred_con .details p {
+        font-size: 14px;
+        width: auto;
+    }
+    .ingred_part .ingred_con .img img {
+        margin: 20px 13px 0 0px;
+    }
+    .review_part {
+        padding: 35px;
+    }
+    .review_part .review_con .guest {
+        padding: 30px 0;
+    }
+    .review_part .review_con .guest {
+        height: 475px;
+    }
+    .review_part .review_con .guest .quoto p {
+        font-size: 18px;
+        width: 290px;
+    }
+    .reservation {
+        padding: 20px 10px;
+    }
+    .reservation .right_food {
+        margin: 0;
+    }
+    .reservation .right_food .contact_mail {
+        display:  block !important;
+    }
+    .reservation .img_con img {
+        margin: 10px 0;
+    }
+    .reservation .btn {
+        margin: 15px 0 0 0;
+        padding: 7px 48px;
+    }
+    footer {
+        padding: 30px 0 40px 0;
+    }
+    footer .title h2 {
+        margin: 0;
+    }
+    footer .detail p {
+        width: auto;
+    }
+    footer .detail img {
+        width: auto;
+        margin: 21px 0 58px 0;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    nav {
+        text-align: center;
+    }
+    nav i {
+        color: #fff;
+        font-size: 25px;
+    }
+    nav ul {
+        margin: 10px 0 0 0;
+        background: #000;
+    }
+    .navbar {
+        --bs-navbar-toggler-border-color: rgba(var(--bs-emphasis-color-rgb), 0.0);
+        --bs-navbar-toggler-focus-width: 0.0rem;
+    }
+    nav ul li a {
+        margin: 0 0 0 0;
+    }
+    nav ul li a::after {
+        display: none;
+    }
+    .banner_part {
+        padding: 150px 0 90px 0;
+    }
+    .banner_part .banner_con h1 {
+        font-size: 37px;
+    }
+    .banner_part .banner_con .img img {
+        margin: 20px 0;
+    }
+    .banner_part .banner_con .btn {
+        margin: 0 9px;
+    }
+    .about_part {
+        padding: 0;
+    }
+    .about_part .title h2 {
+        font-size: 30px;
+    }
+    .about_part .title .img {
+        margin: 6px 0 20px 0;
+    }
+    .about_part .about_con .text p {
+        width: auto;
+    }
+    .about_part .img_con {
+        margin: 10px 0 0 0;
+    }
+    .about_part .img_con img {
+        width: 100%;
+    }
+    .ingred_part {
+        padding: 20px 10px;
+    }
+    .ingred_part .ingred_con {
+        padding: 20px 10px;
+    }
+    .ingred_part .ingred_con .title h2 {
+        font-size: 30px;
+    }
+    .ingred_part .ingred_con .details p {
+        font-size: 14px;
+        width: auto;
+    }
+    .ingred_part .ingred_con .img img {
+        margin: 20px 13px 0 0px;
+    }
+    .review_part {
+        padding: 35px;
+    }
+    .review_part .review_con .guest {
+        padding: 30px 0;
+    }
+    .review_part .review_con .guest {
+        height: 475px;
+    }
+    .review_part .review_con .guest .quoto p {
+        font-size: 18px;
+        width: 290px;
+    }
+    .reservation {
+        padding: 20px 10px;
+    }
+    .reservation .right_food .contact_mail {
+        display:  block !important;
+    }
+    .reservation .title h2 {
+        margin: 20px 0;
+    }
+    .reservation .img_con img {
+        margin: 10px 0;
+    }
+    .reservation .btn {
+        margin: 15px 0 0 0;
+        padding: 7px 48px;
+    }
+    .reservation .from_con .date {
+        width: 45%;
+    }
+    footer {
+        padding: 30px 0 40px 0;
+    }
+    footer .med .title h2 {
+        margin: 30px 0 0 0;
+    }
+    footer .title h2 {
+        margin: 0;
+    }
+    footer .detail p {
+        width: auto;
+    }
+    footer .detail img {
+        width: auto;
+        margin: 21px 0 58px 0;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    nav {
+        text-align: center;
+    }
+    nav i {
+        color: #fff;
+        font-size: 25px;
+    }
+    nav ul {
+        margin: 10px 0 0 0;
+        background: #000;
+    }
+    .navbar {
+        --bs-navbar-toggler-border-color: rgba(var(--bs-emphasis-color-rgb), 0.0);
+        --bs-navbar-toggler-focus-width: 0.0rem;
+    }
+    nav ul li a {
+        margin: 0 0 0 0;
+    }
+    nav ul li a::after {
+        display: none;
+    }
+    .banner_part {
+        padding: 150px 0 90px 0;
+    }
+    .banner_part .banner_con h1 {
+        font-size: 37px;
+    }
+    .banner_part .banner_con .img img {
+        margin: 20px 0;
+    }
+    .banner_part .banner_con .btn {
+        margin: 0 9px;
+    }
+    .about_part {
+        /* padding: 0; */
+    }
+    .about_part .title h2 {
+        font-size: 30px;
+    }
+    .about_part .title .img {
+        margin: 6px 0 20px 0;
+    }
+    .about_part .about_con .text p {
+        width: auto;
+    }
+    .about_part .img_con {
+        margin: 10px 0 0 0;
+    }
+    .ingred_part {
+        padding: 20px 10px;
+    }
+    .ingred_part .ingred_con {
+        padding: 20px 10px;
+    }
+    .ingred_part .ingred_con .title h2 {
+        font-size: 30px;
+    }
+    .ingred_part .ingred_con .details p {
+        font-size: 14px;
+        width: auto;
+    }
+    .ingred_part .ingred_con .img img {
+        margin: 20px 13px 0 0px;
+    }
+    .reservation {
+        padding: 20px 10px;
+    }
+    .reservation .title h2 {
+        margin: 20px 0;
+    }
+    .reservation .img_con img {
+        margin: 10px 0;
+    }
+    .reservation .from_con .name {
+        width: 50%;
+    }
+    .reservation .from_con .email {
+        width: 50%;
+    }
+    .reservation .from_con .date {
+        width: 50%;
+    }
+    .reservation .from_con .number {
+        width: 50%;
+    }
+    .reservation .btn {
+        margin: 15px 0 0 85px;
+    }
+    footer {
+        padding: 30px 0 40px 0;
+    }
+    footer .med .title h2 {
+        margin: 48px 0 0 0;
+    }
+    footer .footer_con:last-child {
+        margin: 48px 0 0 0;
+    }
+    footer .detail p {
+        width: auto;
+    }
+    footer .detail img {
+        width: auto;
+        margin: 21px 0 58px 0;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    nav ul li a {
+        font-family: var(--font_two);
+        margin: 0 0 0 20px;
+    }
+    nav ul li a::after {
+        left: 20%;
+    }
+    .banner_part {
+        padding: 150px 0 90px 0;
+    }
+    .banner_part .banner_con h1 {
+        font-size: 37px;
+    }
+    .banner_part .banner_con .img img {
+        margin: 20px 0;
+    }
+    .banner_part .banner_con .btn {
+        margin: 0 9px;
+    }
+    .about_part {
+        /* padding: 0; */
+    }
+    .about_part .title h2 {
+        font-size: 30px;
+    }
+    .about_part .title .img {
+        margin: 6px 0 20px 0;
+    }
+    .about_part .about_con .text p {
+        width: auto;
+    }
+    .about_part .img_con {
+        margin: 10px 0 0 0;
+    }
+    .ingred_part {
+        padding: 20px 10px;
+    }
+    
+    .ingred_part .ingred_con {
+        padding: 20px 10px;
+    }
+    .ingred_part .ingred_con .title h2 {
+        font-size: 30px;
+    }
+    .ingred_part .ingred_con .details p {
+        font-size: 14px;
+        width: auto;
+    }
+    .ingred_part .ingred_con .img img {
+        margin: 20px 13px 0 0px;
+    }
+    .reservation .right_food {
+        margin: 0;
+    }
+    footer {
+        padding: 30px 0 40px 0;
+    }
+    footer .med .title h2 {
+        margin: 48px 0 0 0;
+    }
+    footer .footer_con:last-child {
+        margin: 48px 0 0 0;
+    }
+    footer .detail p {
+        width: auto;
+    }
+    footer .detail img {
+        width: auto;
+        margin: 21px 0 58px 0;
+    }
+}

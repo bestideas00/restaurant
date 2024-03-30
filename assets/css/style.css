@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Yeseva+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    scroll-behavior: smooth;
+}
+ul,ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #fff !important;
+}
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --font_one : "Yeseva One", serif;
+    --font_two : "Gentium Book Plus", serif;
+    --color-1 : #cc9900;
+}
+.fixed_menu {
+    background: #000;
+}
+body {
+    overflow-x: hidden;
+}
+/* nav start */
+nav {
+    position: fixed !important;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+nav ul li {
+    font-size: 21px;
+    font-weight: 700;
+}
+nav ul li a {
+    font-family: var(--font_two);
+    margin: 0 0 0 50px;
+}
+nav ul li {
+    position: relative;
+}
+nav ul li a::after {
+    width: 0px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    top: -35px;
+    left: 35%;
+    content: '';
+    transition: .4s;
+}
+nav ul li .active::after {
+    width: 80px;
+}
+nav ul li a:hover::after {
+    width: 80px;
+}
+nav .icon a {
+    margin: 0 0 0 10px;
+    color: #dab33e !important;
+    font-size: 21px;
+}
+/* nav end */
+/* banner start */
+.banner_part {
+    /* margin: -118px 0 0 0; */
+    padding: 240px 0 140px 0;
+    background: url(../images/banner.png) no-repeat center;
+    background-size: cover;
+}
+.banner_part .banner_con h1 {
+    font-size: 90px;
+    font-weight: 400;
+    font-family: var(--font_one);
+}
+.banner_part .banner_con .img img {
+    margin: 35px 0;
+}
+.banner_part .banner_con .btn  {
+    margin: 0 15px;
+}
+.banner_part .banner_con .btn a {
+    font-family: var(--font_two);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 50px;
+    border-radius: 0px;
+    border: 1px solid #fff;
+    background: rgba(255, 255, 255,.4);
+    transition: .4s;
+}
+.banner_part .banner_con .btn a:hover {
+    background: rgba(0, 0, 0,.4);
+    border: 1px solid rgba(0, 0, 0,.4);
+}
+/* banner end */
+/* about start */
+.about_part {
+    padding: 70px 0;
+    background: url(../images/about.png) no-repeat center;
+    background-size: cover;
+}
+.about_part .title {
+    margin: 70px 0 0 0;
+}
+.about_part .title h2 {
+    font-family: var(--font_one);
+    font-size: 36px;
+    font-weight: 400;
+    color: var(--color-1);
+}
+.about_part .title .img {
+    margin: 15px 0 33px 0;
+}
+.about_part .about_con .text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #4c4c4c;
+    width: 402px;
+    margin: 0 auto;
+}
+.about_part .about_con .img img {
+    margin: 50px 0 0 87px;
+}
+/* about end */
+/* Ingred start */
+.ingred_part {
+    padding: 100px;
+    background: url(../images/Ingredients.png) no-repeat center;
+    background-size: cover;
+}
+.ingred_part .ingred_con {
+    padding: 83px;
+    background: rgba(0, 0, 0,.6);
+}
+.ingred_part .ingred_con .title h2 {
+    font-family: var(--font_one);
+    font-size: 36px;
+    font-weight: 400;
+    color: #fff;
+}
+.ingred_part .ingred_con .title .img img {
+    margin: 16px 0 32px 0;
+}
+.ingred_part .ingred_con .details p {
+    font-size: 16px;
+    font-weight: 400;
+    width: 410px;
+    margin: 0 auto;
+}
+.ingred_part .ingred_con .img img {
+    margin: 70px 15px 0 15px;
+}
+/* Ingred end */
+/* menu start */
+.menu_part {
+    background: url(../images/menu_backgraund.png) no-repeat center;
+    background-size: cover;
+    padding: 25px 0 70px 0;
+}
+.menu_part .details .img img {
+     width: 100%;
+}
+.menu_part .details .aubergine_con {
+    margin: 40px 0;
+}
+.menu_part .details h3 {
+    font-family: var(--font_one);
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--color-1);
+}
+.menu_part .details h4 {
+    font-family: var(--font_one);
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--color-1);
+}
+.menu_part .details .pragraph p {
+    color: #4c4c4c;
+    font-size: 16px;
+    font-weight: 400;
+}
+.menu_part .details .greek_salad {
+    padding: 5px 5px 10px 5px;
+    margin: 40px 0;
+    border: 1px solid #d5b764;
+    position: relative;
+}
+.menu_part .details .greek_salad .special {
+	width: 80px;
+	height: 30px;
+	background: #d5b764;
+	position: absolute;
+	top: -31px;
+	right: -1px;
+}
+.menu_part .details .Spinach_con {
+    margin: 40px 0 0 0;
+}
+.menu_part .details .fried_chicken {
+    margin: 0 0 37px 0;
+}
+/* menu end */
+/* review start */
+.review_part {
+    background: url(../images/riview_back.png) no-repeat center;
+    background-size: cover;
+    padding: 100px;
+}
+.review_part .review_con .guest {
+    padding: 80px 0;
+    width: 770px;
+    height: 550px;
+    background: rgba(15, 15, 8,.9);
+}
+.review_part .review_con .title h2 {
+    font-family: var(--font_one);
+    font-size: 36px;
+    font-weight: 400;
+}
+.review_part .review_con .title .img {
+    margin: 10px 0;
+}
+.review_part .review_con .guest .quoto img {
+    margin: 0 0 0 49px;
+}
+.review_part .review_con .guest .quoto p {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: var(--font_two);
+    width: 614px;
+    margin: 0 auto;
+    text-align: center;
+}
+.review_part .review_con .guest .quoto h5 {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin: 30px 0 0 0;
+}
+/* review end */
+/* reservation start */
+.reservation {
+    padding: 100px;
+    background: url(../images/reservations_bac.png) no-repeat center;
+    background-size: cover;
+}
+.reservation .img_con img {
+    width: 100%;
+}
+.reservation .right_food {
+    margin: 0 100px 0 80px;
+}
+.reservation .right_food input {
+    width: 90%;
+    padding: 10px 15px;
+    border: 1px solid #c8c6c6;
+    background: none;
+}
+.reservation .title h2 {
+    font-size: 36px;
+    font-weight: 400;
+    font-family: var(--font_one);
+    color: #cc9900;
+}
+.reservation .title img {
+    margin: 10px 0 10px 0;
+}
+.reservation .detail p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #575757;
+    margin: 10px 0;
+}
+.reservation h3 {
+    font-size: 20px;
+    color: #cc9900;
+    font-weight: 700;
+    margin: 30px 0 10px 7px;
+    text-align: left;
+}
+.reservation input::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    color: #848484;
+}
+.reservation .btn {
+	padding: 7px 60px;
+}
+.reservation .btn a {
+    font-size: 16px;
+    font-weight: 400;
+    background: #c9a131;
+    border: none;
+    border-radius: 0;
+    margin: 48px 0 0 0;
+}  
+/* reservation end */
+/* back_2_top start */
+.back_2_top {
+    width: 50px;
+    height: 50px;
+    background: var(--color-1);
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+}
+.back_2_top i {
+    font-size: 16px;
+}
+/* back_2_top end */
+/* footer start */
+footer {
+    padding: 60px 0 70px 0;
+    background: #191919;
+}
+footer .title h2 {
+    font-size: 21px;
+    font-weight: 400;
+    font-family: var(--font_one);
+    text-transform: capitalize;
+}
+footer .title img {
+    margin: 20px 0;
+}
+footer .detail p {
+    width: 318px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+}
+footer .detail img {
+    width: 40%;
+    margin: 50px 0 0 0;
+}
+footer .detail .icon {
+    margin: 49px 0 0 0;
+}
+footer .detail i {
+    margin: 0 5px;
+}
+/* footer end */
