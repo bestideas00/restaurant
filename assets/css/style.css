@@ -24,7 +24,7 @@ h1,h2,h3,h4,h5,h6,p {
 .fixed_menu {
     background: #000;
 }
-body {
+html,body {
     overflow-x: hidden;
 }
 /* nav start */
